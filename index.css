@@ -1,0 +1,126 @@
+  /* 344e41, 3a5a40, 588157, a3b18a, dad7cd */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #dad7dc;
+  }
+
+  .container {
+    margin: auto;
+    width: 992px;
+  }
+
+  header {
+    background-color: #3a5a40;
+    opacity: 0.8;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .company-name {
+    text-transform: uppercase;
+    margin-left: 66px;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .company-name a { 
+    text-decoration: none;
+    color: inherit;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 64px;
+  }
+
+  nav ul li a {
+    margin: 0 16px;
+    opacity: 100;
+    padding: 6px;
+    font-size: large;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+  }
+
+  nav ul li a:hover {
+    color: #dad7dc;
+    background-color: #588157;
+    font-weight: 600;
+  }
+
+  #hero-img {
+    margin-left: 5%;
+    width: 90%;
+    height: 360px;
+    border-radius: 2%;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
+  }
+
+  .hero {
+    padding: 32px;
+  }
+
+  .info {
+    background-image: url("./pattern.png");
+    background-size: 450%;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .info p {
+    font-size: 17px;
+    color: beige;
+    line-height: 2.2;
+    padding: 12px 64px;
+    background-color: rgba(88, 129, 87, 75%);
+    padding: 10px;
+    border: 5px solid white;
+  }
+
+  .info h2 {
+    text-transform: uppercase;
+    color: #092a19;
+  }
+
+  .photos {
+    display: flex;
+    padding: 12px 60px;
+    height: 290px;
+    justify-content: space-around;
+  }
+
+  .photos div {
+    padding: 24px;
+    margin: 12px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  footer {
+    text-align: center;
+    width: 100%;
+    background-color: #588157;
+    height: 111px;
+    bottom: 0;
+  }
+
+  footer nav {
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 1fr 1fr 15%;
+    padding: 10px 6px;
+  }
+
+  .testimonial {
+    border-radius: 5%;
+  }
