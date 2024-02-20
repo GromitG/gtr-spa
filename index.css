@@ -107,6 +107,17 @@
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   }
 
+  .btm-nav{
+  text-decoration: none;
+  color: inherit;
+  }
+
+  .btm-nav:hover{
+  color: #dad7dc;
+  background-color: #588157;
+  font-weight: 600;
+  }
+
   footer {
     text-align: center;
     width: 100%;

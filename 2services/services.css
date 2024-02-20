@@ -1,10 +1,4 @@
 /* SHARED */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  background-color: #dad7dc;
-}
 
 .container {
   margin: auto;
@@ -70,6 +64,24 @@ nav ul li a:hover {
   padding: 32px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #dad7dc;
+}
+
+.btm-nav{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btm-nav:hover{
+  color: #dad7dc;
+  background-color: #588157;
+  font-weight: 600;
+}
+
 footer {
   text-align: center;
   width: 100%;
@@ -85,3 +97,55 @@ footer nav {
 }
 
 /* END OF SHARED */
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* HOVER EFFECT */
+
+.photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.serviceimg {
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.serviceimg img {
+  display: block;
+  width: 300px;
+  height: 200px;
+  transition: transform 0.5s ease;
+}
+
+.serviceimg:hover img {
+  transform: scale(1.4);
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 24px;
+  color: #bbcfb6;
+  background-color: #054408;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: opacity 0.5s ease;
+}
+
+.serviceimg:hover .hover-text {
+  opacity: 0.7;
+}
+
+/* END OF HOVER EFFECT */

@@ -1,11 +1,4 @@
 /* SHARED */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  background-color: #dad7dc;
-}
-
 .container {
   margin: auto;
   width: 992px;
@@ -68,6 +61,24 @@ nav ul li a:hover {
 
 .hero {
   padding: 32px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #dad7dc;
+}
+
+.btm-nav{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btm-nav:hover{
+  color: #dad7dc;
+  background-color: #588157;
+  font-weight: 600;
 }
 
 footer {
