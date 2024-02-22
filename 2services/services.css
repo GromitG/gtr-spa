@@ -93,6 +93,8 @@ footer nav {
   text-transform: uppercase;
 }
 
+/* BACKGROUND IN SUBCONTAINER & FOOTER SPILLING OVER 992PX EDGE OF PAGE, COME BACK TO LOOK AT IT */
+
 .subcontainer {
   margin-top: -2px;
   background-image: url("../pattern.png");
