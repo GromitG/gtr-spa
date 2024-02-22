@@ -1,4 +1,5 @@
 /* SHARED */
+
 .container {
   margin: auto;
   width: 992px;
@@ -58,12 +59,12 @@ body {
   background-color: #dad7dc;
 }
 
-.btm-nav{
+.btm-nav {
   text-decoration: none;
   color: inherit;
 }
 
-.btm-nav:hover{
+.btm-nav:hover {
   color: #dad7dc;
   background-color: #588157;
   font-weight: 600;
@@ -91,7 +92,7 @@ footer nav {
   padding: 16px;
 }
 
-h2{
+h2 {
   text-align: center;
   margin: auto;
   padding: 1%;
@@ -152,7 +153,7 @@ h2{
 
 .grid-item:hover .hover-text::after {
   opacity: 0.7;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* END OF HOVER EFFECTS */

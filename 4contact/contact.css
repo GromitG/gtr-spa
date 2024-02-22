@@ -1,4 +1,5 @@
 /* SHARED */
+
 .container {
   margin: auto;
   width: 992px;
@@ -70,12 +71,12 @@ body {
   background-color: #dad7dc;
 }
 
-.btm-nav{
+.btm-nav {
   text-decoration: none;
   color: inherit;
 }
 
-.btm-nav:hover{
+.btm-nav:hover {
   color: #dad7dc;
   background-color: #588157;
   font-weight: 600;
@@ -96,3 +97,22 @@ footer nav {
 }
 
 /* END OF SHARED */
+
+
+
+/* PAGE NEEDS ALOT OF WORK
+TO DO
+- create a container with the elements of the form;
+
+      - topic *HTML <input type="text">
+      - message *HTML <textarea>
+      - send message button/form 
+        *HTML <input type="submit"> 
+          OR
+        *HTML <a href="mailto:hair@studios.com"> Send Message </a>
+      - align to the right of page: divide page 1fr *1fr form*
+    
+- 1fr *first fr of page* image of receptionist
+
+- background img = pattern
+*/
