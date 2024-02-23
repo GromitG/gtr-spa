@@ -75,8 +75,6 @@ footer {
   width: 100%;
   background-color: #588157;
   height: auto;
-  
-  
 }
 
 footer nav {
@@ -91,6 +89,8 @@ footer nav {
   text-align: center;
   font-size: 20px;
   text-transform: uppercase;
+  padding: 25px;
+  background-color: white;
 }
 
 .subcontainer {
@@ -115,9 +115,11 @@ footer nav {
   display: flex;
   flex-direction: column;
   margin: 0 32px;
-  background-color: #dad7dc; /* TO COME BACK TO */
+  background-color: white;
   border-radius: 15%;
-  padding: 5px;
+  margin: 0 140px;
+  padding: 8px;
+  border: 5px solid #588157;
 }
 
 .row-list h4 {
@@ -126,14 +128,19 @@ footer nav {
 }
 
 .serviceimg {
-  width: 270px;
-  height: 220px;
+  width: 280px;
+  height: 240px;
 }
 
 .serviceimg {
   border-radius: 15%;
+  border: 5px solid #588157;
 }
 
 .photos {
-  margin: 0 64px;
+  margin: 0 105px;
+}
+
+h4 {
+  padding: 10px;
 }
