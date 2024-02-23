@@ -93,8 +93,6 @@ footer nav {
   text-transform: uppercase;
 }
 
-/* BACKGROUND IN SUBCONTAINER & FOOTER SPILLING OVER 992PX EDGE OF PAGE, COME BACK TO LOOK AT IT */
-
 .subcontainer {
   margin-top: -2px;
   background-image: url("../pattern.png");
@@ -118,6 +116,8 @@ footer nav {
   flex-direction: column;
   margin: 0 32px;
   background-color: #dad7dc; /* TO COME BACK TO */
+  border-radius: 15%;
+  padding: 5px;
 }
 
 .row-list h4 {
