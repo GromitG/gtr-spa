@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #3a5a40;
+  background-color: #588157;
   opacity: 0.8;
 }
 
@@ -91,6 +91,11 @@ nav ul li a:hover {
 .info h2 {
   text-transform: uppercase;
   color: #092a19;
+  text-align: center;
+  padding: 25px;
+  background-color: white;
+  margin: auto;
+  text-transform: capitalize;
 }
 
 .photos {
@@ -125,6 +130,7 @@ footer {
   background-color: #588157;
   height: 111px;
   bottom: 0;
+  opacity: 0.9;
 }
 
 footer nav {
