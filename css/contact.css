@@ -116,6 +116,25 @@ TO DO
 - background img = pattern
 */
 
+
+
+.content {
+  display: flex;
+  background-image: url("/img/pattern.png");
+}
+
+.left, .right {
+  flex: 1;
+}
+
+
 .right {
-  
+  text-align: left;
+  padding: 110px 0;
+}
+
+.receptimg {
+  width: 400px;
+  height: auto;
+  padding: 100px;
 }
