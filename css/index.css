@@ -72,7 +72,7 @@ nav ul li a:hover {
 }
 
 .info {
-  background-image: url("./pattern.png");
+  background-image: url("/img/pattern.png");
   background-size: 450%;
   padding: 16px;
   text-align: center;
