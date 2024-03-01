@@ -37,7 +37,6 @@ nav ul {
 
 nav ul li a {
   margin: 0 16px;
-  opacity: 100;
   padding: 6px;
   font-size: large;
   font-weight: 400;
@@ -96,31 +95,17 @@ footer nav {
   padding: 10px 6px;
 }
 
-/* END OF SHARED */
-
-
-/* PAGE NEEDS ALOT OF WORK
-TO DO
-- create a container with the elements of the form;
-
-      - topic *HTML <input type="text">
-      - message *HTML <textarea>
-      - send message button/form 
-        *HTML <input type="submit"> 
-          OR
-        *HTML <a href="mailto:hair@studios.com"> Send Message </a>
-      - align to the right of page: divide page 1fr *1fr form*
-    
-- 1fr *first fr of page* image of receptionist
-
-- background img = pattern
-*/
-
-
-
 .content {
   display: flex;
   background-image: url("/img/pattern.png");
+}
+
+h2 {
+  text-align: center;
+  padding: 25px;
+  background-color: white;
+  margin: auto;
+  text-transform: capitalize;
 }
 
 .left {
@@ -132,7 +117,7 @@ TO DO
 .right {
   flex: 1;
   text-align: left;
-  padding: 110px 0;
+  padding: 140px 0;
 }
 
 .receptimg {
@@ -140,4 +125,10 @@ TO DO
   height: auto;
   border-radius: 25%;
   border: green 2px solid;
+}
+
+.topic input, .name input, .message-box textarea {
+  width: calc(75% - 20px);
+  padding: 5px;
+  margin-bottom: 10px;
 }

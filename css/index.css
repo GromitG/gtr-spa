@@ -44,7 +44,6 @@ nav ul {
 
 nav ul li a {
   margin: 0 16px;
-  opacity: 100;
   padding: 6px;
   font-size: large;
   font-weight: 400;
@@ -93,7 +92,7 @@ nav ul li a:hover {
   color: #092a19;
   text-align: center;
   padding: 25px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.788);
   margin: auto;
   text-transform: capitalize;
   width: 50%;
