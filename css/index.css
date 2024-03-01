@@ -31,7 +31,7 @@ header {
   font-weight: 700;
 }
 
-.company-name a { 
+.company-name a {
   text-decoration: none;
   color: inherit;
 }
@@ -96,6 +96,7 @@ nav ul li a:hover {
   background-color: white;
   margin: auto;
   text-transform: capitalize;
+  width: 50%;
 }
 
 .photos {
